@@ -300,7 +300,7 @@ a+b+c
 ggsave('inc_notif_prev_scatter.pdf', height = 3, width=8)
 
 
-#==========
+#==========acf vs (peak and trough epi)=======
 
 tmp <- timax[, .(rnmax, rnmin, rimin, rracf)]
 
